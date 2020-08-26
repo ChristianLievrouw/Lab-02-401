@@ -23,9 +23,9 @@ namespace Lab_02_401
         {
             //Arange
             decimal balance = 100.00m;
-            decimal widthdraw = 25.00m;
+            decimal withdraw = 25.00m;
             //Act
-            decimal result = Program.Withdraw(balance, widthdraw);
+            decimal result = Program.Withdraw(withdraw, balance);
             //Assert
             decimal expected = 75.00m;
             Assert.Equal(expected, result);
